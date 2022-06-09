@@ -29,7 +29,7 @@ class class_res:
 
 		#nltk.download('stopwords')  ### run this on python shell
 
-		#x = "C:/Users/RIMA/Desktop/Django/mysite"
+		
 		x = "local path"
 		
 		#value = str(settings.BASE_DIR)
