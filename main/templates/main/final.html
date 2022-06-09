@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dataframe</title>
+</head>
+<body>
+<div>
+	<form enctype="multipart/form-data" action="" method="post"> 
+            {% csrf_token %}
+            <!--{{ form }} -->
+            <input type = "file" name = "doc">
+            <input type="submit" value="Save">
+        </form>
+</div>
+<div>
+	
+	{% if url %}
+		<p>Uploaded Document: <a href = "{{url}}" target="_blank">Click here!</a></p>
+	{% endif %}
+
+
+
+		 
+	
+	<br><br>
+</div>
+<div>
+	{{dfi|safe}}
+</div>
+	
+	
+</body>
+</html>

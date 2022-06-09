@@ -1,0 +1,11 @@
+asgiref==3.5.2
+backports.zoneinfo==0.2.1
+Django==4.0.5
+sqlparse==0.4.2
+tzdata==2022.1
+beautifulsoup4==4.9.1
+requests==2.23.0
+pandas==1.3.5
+nltk==3.4.3
+pyresparser==1.0.6
+scikit-learn==1.0.2

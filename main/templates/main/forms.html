@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+
+		<form enctype="multipart/form-data" action="" method="post"> <!-- Do not forget to add: enctype="multipart/form-data" -->
+            {% csrf_token %}
+            <!--{{ form }} -->
+            <input type = "file" name = "doc">
+            <input type="submit" value="Save">
+        </form>
+
+        {% if url %}
+
+       		 <p>Uploaded Document: <a href = "{{url}}" >Click here!</a></p>
+
+        {% endif %}
+
+        <br><br>
+<!--
+        {% if skills %}
+
+       		 <p>SKILLS ::   {{skills}}</p>
+
+        {% endif %} -->
+
+</body>
+</html>
